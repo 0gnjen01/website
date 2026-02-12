@@ -1,14 +1,41 @@
-body {
-  background-color: #f2f1ef;
+:root {
+  --black = #22262d;
+  --white = #f2f1ef;
+
+  --green = #6f894e;
+  --shit-yellow= #77713f;
+  --blue = #4d699b;
+  --pink = #b35b79;
+  --cyan = #597b75;
+  --gray = #9f9f99;
+
+  --orange = #cc6d00;
+  --red = #e82424;
+
+  --selection-foreground= #22262d;
+  --selection-background= #e2e1df;
+
+  --url = #73a7bc;
+
+  --font = "DejaVu Sans"; 
 }
 
-h1 {
-  font-family: DejaVu Sans;
-  color: #22262d ;
+body {
+  background-color: var(--white);
+  font-family: var(--font);
   text-align: center;
 }
 
-p {
-  font-family: DejaVu Sans;
-  font-size: 20px;
+h1 {
+  color: var(--blue) ;
 }
+
+p {
+  color: var(--black);
+}
+
+a {
+  color: var(--url);
+  font-family: var(--font), italic;
+}
+  
