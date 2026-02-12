@@ -3,7 +3,7 @@
   --white: #f2f1ef;
 
   --green: #6f894e;
-  --shit-yellow= #77713f;
+  --shit-yellow: #77713f;
   --blue: #4d699b;
   --pink: #b35b79;
   --cyan: #597b75;
@@ -12,8 +12,8 @@
   --orange: #cc6d00;
   --red: #e82424;
 
-  --selection-foreground= #22262d;
-  --selection-background= #e2e1df;
+  --selection-foreground: #22262d;
+  --selection-background: #e2e1df;
 
   --url: #73a7bc;
 
@@ -22,12 +22,12 @@
 
 body {
   background-color: var(--white);
-  font-family: var(--font);
+  font-family: var(--font), sans-serif;  
   text-align: center;
 }
 
 h1 {
-  color: var(--blue) ;
+  color: var(--blue);
 }
 
 p {
@@ -36,6 +36,6 @@ p {
 
 a {
   color: var(--url);
-  font-family: var(--font), italic;
+  font-family: var(--font);
+  font-style: italic;
 }
-  
