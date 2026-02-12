@@ -1,41 +1,59 @@
 :root {
-  --black: #22262d;
-  --white: #f2f1ef;
+  --white: #c5c9c7;
+  --black: #14171d;
 
-  --green: #6f894e;
-  --shit-yellow: #77713f;
-  --blue: #4d699b;
-  --pink: #b35b79;
-  --cyan: #597b75;
-  --gray: #9f9f99;
+  --green: #8a9a7b;
+  --yellow: #c4b28a;
+  --blue: #8ba4b0;
+  --pink: #a292a3;
+  --cyan: #8ea4a2;
+  --gray: #a4a7a4;
 
-  --orange: #cc6d00;
-  --red: #e82424;
+  --orange: #b6927b;
+  --red: #b98d7b;
 
-  --selection-foreground: #22262d;
-  --selection-background: #e2e1df;
+  --selection-foreground: #c5c9c7;
+  --selection-background: #3e424a;
 
-  --url: #73a7bc;
+  --url: #72a7bc;
 
   --font: "DejaVu Sans"; 
 }
 
 body {
-  background-color: var(--white);
-  font-family: var(--font), monospace;  
-  text-align: center;
+  background-color: var(--black);
+  font-family: var(--font), monospace;
+  color: var(--white);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+}
+  
+main {
+}
+
+footer {
+  border-top: 1px dashed var(--gray);
+  text-align: center
 }
 
 h1 {
   color: var(--blue);
 }
 
-p {
-  color: var(--black);
+div {
+  background-color: #090e13;
+  padding: 5px 5px
 }
 
 a {
   color: var(--url);
   font-family: var(--font), sans-serif;
   font-style: italic;
+}
+
+a:hover {
+  color: var(--white);
 }
